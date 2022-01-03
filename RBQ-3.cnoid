@@ -125,6 +125,29 @@ items:
                 kinematicWalking: false
                 2Dmode: false
                 oldAccelSensorMode: false
+                
+        - 
+          id: 8
+          name: "tilt_plane"
+          plugin: Body
+          class: BodyItem
+          data: 
+            modelFile: "${PROJECT_DIR}/tilt_plane.body"
+            currentBaseLink: ""
+            rootPosition: [ 0, 3, 0 ]
+            rootAttitude: [ 
+              1, 0, 0, 
+              0, 1, 0, 
+              0, 0, 1 ]
+            jointPositions: [  ]
+            initialRootPosition: [ 0, 3, 0 ]
+            initialRootAttitude: [ 
+              1, 0, 0, 
+              0, 1, 0, 
+              0, 0, 1 ]
+            collisionDetection: true
+            selfCollisionDetection: false
+            isEditable: false
 views: 
   - 
     id: 0

@@ -10,7 +10,7 @@ links:
     name: WAIST
     jointType: free
     translation: [ 0, 0, 0.3135 ]
-    centerOfMass: [ 0, 0, 0.0 ]
+    centerOfMass: [ -0.00, 0, 0.0 ]
     mass: 11.5765
     inertia: [
       0.070908096, 0.001976068, 0.009267259,
