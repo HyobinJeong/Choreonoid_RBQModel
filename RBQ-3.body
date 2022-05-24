@@ -139,6 +139,7 @@ links:
     translation: [ 0, 0, -0.225 ]
     centerOfMass: [ 0.0,0.0,0.0 ]
     mass: 0.001
+    material: Sole
     inertia: [
       0.001, 0, 0,
       0, 0.001, 0,
@@ -149,7 +150,7 @@ links:
         translation: [ 0, 0, 0 ]
         elements:
           Shape:
-            geometry: { type: Sphere, radius: 0.025  }
+            geometry: { type: Sphere, radius: 0.02  }
             appearance:
               material: 
                 diffuseColor: [ 0.6, 0.6, 0.6 ]
@@ -233,6 +234,7 @@ links:
     translation: [ 0, 0, -0.225 ]
     centerOfMass: [ 0.0,0.0,0.0 ]
     mass: 0.001
+    material: Sole
     inertia: [
       0.001, 0, 0,
       0, 0.001, 0,
@@ -243,7 +245,7 @@ links:
         translation: [ 0, 0, 0 ]
         elements:
           Shape:
-            geometry: { type: Sphere, radius: 0.025  }
+            geometry: { type: Sphere, radius: 0.02  }
             appearance:
               material: 
                 diffuseColor: [ 0.6, 0.6, 0.6 ]
@@ -325,6 +327,7 @@ links:
     translation: [ 0, 0, -0.225 ]
     centerOfMass: [ 0.0,0.0,0.0 ]
     mass: 0.001
+    material: TankTracks
     inertia: [
       0.001, 0, 0,
       0, 0.001, 0,
@@ -335,7 +338,7 @@ links:
         translation: [ 0, 0, 0 ]
         elements:
           Shape:
-            geometry: { type: Sphere, radius: 0.025  }
+            geometry: { type: Sphere, radius: 0.02  }
             appearance:
               material: 
                 diffuseColor: [ 0.6, 0.6, 0.6 ]
@@ -418,6 +421,7 @@ links:
     translation: [ 0, 0, -0.225 ]
     centerOfMass: [ 0.0,0.0,0.0 ]
     mass: 0.001
+    material: Sole
     inertia: [
       0.001, 0, 0,
       0, 0.001, 0,
@@ -428,7 +432,7 @@ links:
         translation: [ 0, 0, 0 ]
         elements:
           Shape:
-            geometry: { type: Sphere, radius: 0.025  }
+            geometry: { type: Sphere, radius: 0.02  }
             appearance:
               material: 
                 diffuseColor: [ 0.6, 0.6, 0.6 ]
@@ -474,7 +478,7 @@ defaultIKsetup:
   FRONT_R_KNEE: [ WAIST ]
   FRONT_L_KNEE: [ WAIST ]
 
-possileSupportLinks: [ HIND_R_KNEE, HIND_L_KNEE, FRONT_R_KNEE, FRONT_L_KNEE ]
+possileSupportLinks: [ HIND_R_FT, HIND_L_FT, FRONT_R_FT, FRONT_L_FT ]
 
 collisionDetection:
   excludeTreeDepth: 3

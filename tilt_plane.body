@@ -1,7 +1,6 @@
 format: ChoreonoidBody
 formatVersion: 1.0
-angleUnit: radian
-name: PressRoom
+name: tilt_plane
 angleUnit: degree
 
 links:
@@ -14,8 +13,9 @@ links:
         type: RigidBody
         centerOfMass: [ 0.0, 0.0, 0.0 ]
         rotation: [0, 1, 0, -10]
-        translation: [0, 0, 0.4]
+        translation: [3, -3, 0.4]
         mass: 1.0
+        material: TankTracks
         inertia: [
           1.0, 0.0, 0.0,
           0.0, 1.0, 0.0,
@@ -26,7 +26,7 @@ links:
             geometry:
               #type: Plane
               type: Box
-              size: [ 5, 2, 0.01 ]
+              size: [ 5, 2, 0.02 ]
               
             appearance:
               material:
